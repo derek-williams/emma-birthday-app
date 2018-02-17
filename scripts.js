@@ -213,7 +213,7 @@ function sendPush(){
 		"active": "true",
 		"type": "note",
 		"title": "HELP",
-		"body": "Shit is hitting emmys fan!",
+		"body": "Emmy says wyd",
 		"email": "the.calm.flow@gmail.com"
 	}
 
