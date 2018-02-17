@@ -74,20 +74,21 @@ function playSong(el){
 
 function playFunnyTime(el){
 	console.log("emmy wants to play a funny time");
+	window.location.href="blog.html"
 
 	currentMediaType = "funny"
 
-	handleBold(el)
+	/*handleBold(el)
 
 	controls.show()
 
-	mediaType.text('Funny Times...')
+	mediaType.text("emmy's blog")
 
 	nowPlaying.text(cleanName(funnies[currentFunnyIndex]));
 
 	pausePlayer();
 
-	player.attr('src', "funnytimes/"+funnies[currentFunnyIndex]);
+	player.attr('src', "funnytimes/"+funnies[currentFunnyIndex]);*/
 	
 }
 
