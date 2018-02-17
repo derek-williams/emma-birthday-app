@@ -94,7 +94,7 @@ function playFunnyTime(el){
 function freakout(el){
 	console.log("emmy is freaking out");
 	handleBold(el)
-	mediaType.text('Freakout engaged, Chris is being notified... hang tight, deep breaths!')
+	mediaType.text('u annoyed derek, dont worry')
 
 	player[0].pause()
 
