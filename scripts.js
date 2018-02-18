@@ -276,9 +276,9 @@ $(document).ready(function(){
 });
 
 function getRandomImage() {
-	var images = ["0175.png","0765.jpg","0774.jpg",
-				  "0825.png","0854.jpg","0884.jpg",
-				  "0972.png","7179.jpg","icon-template.png",
+	var images = ["0175.png","0765.JPG","0774.JPG",
+				  "0825.JPG","0854.JPG","0884.JPG",
+				  "0972.JPG","7179.JPG","icon-template.png",
 				  "mainpic.jpg"];
   
 	return images[Math.floor(Math.random() * images.length)];
