@@ -210,7 +210,7 @@ $(function() {
 			// This is where you map functions to urls.
 			// Just add '{{URL pattern}}': '{{function name}}'
 			routes: {
-				'': 'blog',
+				'': 'index',
 				'blog/:id': 'blog',
 				'admin': 'admin',
 				'login': 'login',
