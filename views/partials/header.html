@@ -14,10 +14,10 @@
 <body>
   <header class="header">
     <h1 class="site-title">
-        <a href="/views/newpost.html" class="button">Post!</a>
       <a href="/">{{ cosmic.object.header.metadata.site_title }}</a>
       <small class="site-title__tag">{{ cosmic.object.header.metadata.site_tag }}</small>
     </h1>
+    <a href="../newpost.html" class="button">Post To Blog</a>
     <div>
       {{^ cosmic.objects.type.posts }}
         You must add at least one Post to your Bucket.
