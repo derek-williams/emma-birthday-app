@@ -169,7 +169,11 @@
 
     <script src="jquery.js"></script>
     <!-- Parse.js -->
-    <script src="//www.parsecdn.com/js/parse-1.2.19.min.js"></script>
+    <script src="https://unpkg.com/parse/dist/parse.min.js"></script>
+    <script>
+        Parse.initialize("G9gUmwaT7FAM12QKarClFkU5zO1YTJuXDwf6XyOj", "ZhdgfHeLwSMyVfQhx0BdX88kutTHCUH9bFZV2LMy"); //PASTE HERE YOUR Back4App APPLICATION ID AND YOUR JavaScript KEY
+        Parse.serverURL = "https://parseapi.back4app.com/";
+</script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/blog.js"></script>
   </body>
