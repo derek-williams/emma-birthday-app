@@ -267,7 +267,7 @@ jQuery.fn.visibilityToggle = function() {
 
 function changeMe()
 {
-  document.getElementById("changeMe").src = "images/" + getRandomImage();
+  document.getElementById("changeMe").src = "emmaspics/" + getRandomImage();
 }
 
 //JQuery
@@ -276,10 +276,10 @@ $(document).ready(function(){
 });
 
 function getRandomImage() {
-	var images = ["emmaspics/0175.png","emmaspics/0765.jpg","emmas/pics/0774.jpg",
-				  "emmaspics/0825.png","emmaspics/0854.jpg","emmas/pics/0884.jpg",
-				  "emmaspics/0972.png","emmaspics/7179.jpg","emmas/pics/icon-template.png",
-				  "emmas/pics/mainpic.jpg"];
+	var images = ["0175.png","0765.jpg","0774.jpg",
+				  "0825.png","0854.jpg","0884.jpg",
+				  "0972.png","7179.jpg","icon-template.png",
+				  "mainpic.jpg"];
   
 	return images[Math.floor(Math.random() * images.length)];
   }
