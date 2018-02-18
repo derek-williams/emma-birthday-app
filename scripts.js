@@ -279,7 +279,7 @@ function getRandomImage() {
 	var images = ["0175.png","0765.JPG","0774.JPG",
 				  "0825.JPG","0854.JPG","0884.JPG",
 				  "0972.JPG","7179.JPG","icon-template.png",
-				  "mainpic.jpg"];
+				  "mainpic.png"];
   
 	return images[Math.floor(Math.random() * images.length)];
   }
