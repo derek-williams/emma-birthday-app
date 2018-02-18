@@ -73,7 +73,7 @@ function playSong(el){
 }
 
 function playFunnyTime(el){
-	console.log("emmy wants to play a funny time");
+	console.log("emmy wants to use her blog");
 	window.location.href="blog.html"
 
 	currentMediaType = "funny"
