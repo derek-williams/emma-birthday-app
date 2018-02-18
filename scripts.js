@@ -264,3 +264,22 @@ jQuery.fn.visibilityToggle = function() {
         return (visibility == 'visible') ? 'hidden' : 'visible';
     });
 };
+
+function changeMe()
+{
+  document.getElementById("changeMe").src = "images/" + getRandomImage();
+}
+
+//JQuery
+$(document).ready(function(){
+  $("#changeMe").src("images/" + getRandomImage());
+});
+
+function getRandomImage() {
+	var images = ["emmaspics/0175.png","emmaspics/0765.jpg","emmas/pics/0774.jpg",
+				  "emmaspics/0825.png","emmaspics/0854.jpg","emmas/pics/0884.jpg",
+				  "emmaspics/0972.png","emmaspics/7179.jpg","emmas/pics/icon-template.png",
+				  "emmas/pics/mainpic.jpg"];
+  
+	return images[Math.floor(Math.random() * images.length)];
+  }
