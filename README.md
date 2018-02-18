@@ -8,4 +8,4 @@ Things to accomplish with this web app
 - [ ] Let her add something to said list
 - [x] Wyd button that texts me wyd
 - [ ] Blog for her to write shit into it
-- [ ] Write her a heart felt note
+- [x] Write her a heart felt note
