@@ -274,7 +274,7 @@ function changeMe()
 
 //JQuery
 $(document).ready(function(){
-  $("#changeMe").src("images/" + getRandomImage());
+  $("#changeMe").src("emmaspics/" + getRandomImage());
 });
 
 function getRandomImage() {
