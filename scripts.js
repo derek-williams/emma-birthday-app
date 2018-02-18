@@ -270,6 +270,8 @@ function changeMe()
   document.getElementById("changeMe").src = "images/" + getRandomImage();
 }
 
+<img id="changeMe" onLoad="changeMe()" src="emmaspics/mainpic.jpg" />
+
 //JQuery
 $(document).ready(function(){
   $("#changeMe").src("images/" + getRandomImage());
