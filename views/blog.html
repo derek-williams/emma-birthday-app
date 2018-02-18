@@ -1,7 +1,6 @@
 {{> header }}
   <main class="container">
     {{# cosmic.objects.type.posts }}
-    <button type="button" onclick="alert('Hello world!')">Click Me!</button>
       <div class="card" data-href="/{{ slug }}">
         {{# metadata.hero.imgix_url }}
           <div class="blog-post-hero blog-post-hero--short" style="background-image: url({{ metadata.hero.imgix_url }})"></div>
