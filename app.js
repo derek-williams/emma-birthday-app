@@ -9,7 +9,7 @@ app.set('port', (process.env.PORT || 3000))
 app.use('/', express.static(__dirname + '/public/'))
 const Cosmic = require('cosmicjs')
 const helpers = require('./helpers')
-const bucket_slug = 'https://api.cosmicjs.com/v1/emmys-diary' // process.env.COSMIC_BUCKET || 'simple-blog-website'
+const bucket_slug = /*'https://api.cosmicjs.com/v1/emmys-diary'*/ process.env.COSMIC_BUCKET || 'simple-blog-website'
 const read_key = process.env.COSMIC_READ_KEY
 const config = {
   bucket: {
@@ -38,7 +38,7 @@ app.get('/', (req, res) => {
       cosmic.no_posts = true
     }
     res.locals.cosmic = cosmic
-    res.render('index.html', { partials })
+    res.render('blog.html', { partials })
   })
 })
 // Single Post
