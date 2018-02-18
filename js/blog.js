@@ -3,7 +3,9 @@ $(function() {
 	Parse.$ = jQuery;
 
 	// Replace this line with the one on your Quickstart Guide Page
-
+  Parse.initialize("G9gUmwaT7FAM12QKarClFkU5zO1YTJuXDwf6XyOj", "ZhdgfHeLwSMyVfQhx0BdX88kutTHCUH9bFZV2LMy"); //PASTE HERE YOUR Back4App APPLICATION ID AND YOUR JavaScript KEY
+  Parse.serverURL = "https://parseapi.back4app.com/";
+  
 	var $container = $('.main-container'),
 		$sidebar = $('.blog-sidebar'),
 		Blog = Parse.Object.extend('Blog', {
