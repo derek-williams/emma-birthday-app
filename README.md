@@ -9,3 +9,4 @@ Things to accomplish with this web app
 - [x] Wyd button that texts me wyd
 - [ ] Couple shitty songs like 'Honey Jack'
 - [ ] Blog for her to write shit into it
+- [ ] Write her a heart felt note
