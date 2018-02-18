@@ -3,8 +3,6 @@ $(function() {
 	Parse.$ = jQuery;
 
 	// Replace this line with the one on your Quickstart Guide Page
-	Parse.initialize("moyicat-parse-blog-git");
-	Parse.serverURL = 'https://moyicat-parse-blog-git.herokuapp.com/parse';
 
 	var $container = $('.main-container'),
 		$sidebar = $('.blog-sidebar'),
